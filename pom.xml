@@ -16,7 +16,7 @@
 	<description>Service for working place reservaton</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>13</java.version>
 	</properties>
 
 	<dependencies>
