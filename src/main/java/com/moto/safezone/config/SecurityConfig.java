@@ -15,7 +15,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 //@EnableOAuth2Sso
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-	String loginPage = "http://localhost:8080/oauth2/authorization/google";
+	String loginPage = "hhttps://safe-zone-il.herokuapp.com/oauth2/authorization/google";
 	String frontIndexPage = "http://localhost:3001/";
 	
 	@Override
