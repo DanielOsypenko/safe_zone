@@ -16,7 +16,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	String loginPage = "https://safe-zone-il.herokuapp.com/oauth2/authorization/google";
-	String frontIndexPage = "http://localhost:3001/";
+	String frontIndexPage = "https://il-safe-zone.herokuapp.com/";
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
